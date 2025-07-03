@@ -1,0 +1,137 @@
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('desktop', 11, 31, 1);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('terminal', 12, 31, 2);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('file_explorer', 13, 31, 3);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('powershell', 12, 31, 4);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('desktop', 11, 31, 1);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('terminal', 12, 31, 2);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('file_explorer', 13, 31, 3);
+INSERT INTO public.rasactiondetails (action_name, view_mode, hide_value, action_id) VALUES('powershell', 12, 31, 4);
+
+
+
+
+
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(1, 'Desktop notify user', 200, 'Notify user', 'Desktop', 'Remote Screen');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(8, 'Desktop prompt for user consent', 200, 'Prompt for user consent', 'Desktop', 'Remote Screen');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(64, 'Desktop show connection toolbar', 200, 'Show connection toolbar', 'Desktop', 'Remote Screen');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(2, 'Terminal notify user', 200, 'Notify user', 'Terminal', 'Command Prompt');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(16, 'Terminal prompt for user consent', 200, 'Prompt for user consent', 'Terminal', 'Command Prompt');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(4, 'Files notify user', 200, 'Notify user', 'Files', 'File Explorer');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(32, 'Files prompt for user consent', 200, 'Prompt for user consent', 'Files', 'File Explorer');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(1, 'Desktop notify user', 1, 'Notify user', 'Desktop', 'Remote Screen');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(8, 'Desktop prompt for user consent', 1, 'Prompt for user consent', 'Desktop', 'Remote Screen');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(64, 'Desktop show connection toolbar', 1, 'Show connection toolbar', 'Desktop', 'Remote Screen');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(2, 'Terminal notify user', 1, 'Notify user', 'Terminal', 'Command Prompt');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(16, 'Terminal prompt for user consent', 1, 'Prompt for user consent', 'Terminal', 'Command Prompt');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(4, 'Files notify user', 1, 'Notify user', 'Files', 'File Explorer');
+INSERT INTO public.rasconsentdetails (consent_id, consent_name, tenantid, "label", consent_type, consent_label) VALUES(32, 'Files prompt for user consent', 1, 'Prompt for user consent', 'Files', 'File Explorer');
+
+
+
+
+
+
+
+
+
+
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('asset_index_name', 'beak-asset-additionalinfo');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('fernet_secrete_key', '=#!;wt:QvrG2z>?z''*D7=UD#tvB_9RKZ');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('server_id', '0A4C768C6B70991A7605A8ABD2FAF093FAF3A1809C0E4A22C16C51264070C517D1BF9B2BE00E7538E468B651813BC27C');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('jwt_secretekey', 'codessdhweilajd6753oqwk6dkqwraodieqwoauejhkjdgdjkscbefghxbmdnxdjhfsjalfsbcaewuefhufhfhgfkssdjhdvmvflsbgasjdkdfbvbefuehnknjjnsbcknckscnksnkshnncnjhnjcjcksjkshkfhfhfkhkfhkhfgbcbcksmcbvgslsuenhdtsvx cdhcbdcc cnjkkdhdcbcjdkdhsgsd dvmfkfvbfhddjdjjdjdhdgssnsnsjskhdgdhffhfjjjjjjssgggdggdbbbbcvvvjhhkkksysyysfdfddffdkkfkfhffkhfjffjhfjfhfjhfjfhfjfhfjfhfjfhpqoweuioqwieup9qwudoaiuldawdulw8ueqp857hcncncp0e3quhhusef7ite7wffwjkjxsisgod');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('rasglobaluser_password', 'Demoras@1234');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('rasglobaluser_username', 'rasadmin');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('company_index_name', 'beak-company-additionalinfo');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('ras_config_mapping', '{"Desktop notify user": 1,
+"Terminal notify user": 2,
+"Files notify user": 4,
+"Desktop prompt for user consent": 8,
+"Terminal prompt for user consent": 16,
+"Files prompt for user consent": 32,
+"Desktop show connection toolbar": 64}');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('ras_remote_actions', '{"Shutdown": "{''action'': ''runcommands'', ''type'': 2, ''cmds'': ''Shutdown /s'', ''responseid'': ''meshctrl'', ''runAsUser'': 0}",
+"Reboot":"{''action'': ''runcommands'', ''type'': 2, ''cmds'': ''Restart-Computer -Force'', ''responseid'': ''meshctrl'', ''runAsUser'': 0}",
+"Wake Device":"{''action'': ''wakedevices''}", 
+"forcefully disconnect the remote session":"{''action'': ''changedevice'', ''intelamt'': {''user'': '''', ''pass'': ''''}}", 
+"Set Clip":"{''action'': ''msg'', ''type'': ''setclip'',''data'':''''}", 
+"Get Clip":"{''action'': ''msg'', ''type'': ''getclip'', ''tag'': 1}"}');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('default_ras_config', '{"Desktop notify user": True,
+"Terminal notify user": True,
+"Files notify user": True,
+"Desktop prompt for user consent": True,
+"Terminal prompt for user consent": True,
+"Files prompt for user consent": True,
+"Desktop show connection toolbar": True}');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('bv_apikey', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjI2NzUsInZhbGlkX2Zyb20iOiIyMDIzLTAyLTIwIiwidmFsaWRfdG8iOiIyMDMzLTAyLTIwIiwiZXhwIjoxOTkyNDcwNDAwLCJjb21wYW55aWQiOiIxMTU5MCIsInRlbmFudGlkIjoiMSIsImxvZ2luaWQiOjE4MDYsInJvbGVpZCI6NzQxLCJlbWFpbCI6ImJlYWtkZW1vQGlsaW5rLXN5c3RlbXMuY29tIiwiZmlyc3RfbmFtZSI6IlN5c3RlbSIsImxhc3RfbmFtZSI6ImRlbW8iLCJ1c2VybmFtZSI6IlN5c3RlbSBkZW1vIiwiZ3JvdXBpZCI6MTIyNjd9.xQvw5TeklylJQtfJsOD1GzQKOHn19rNvyp_g_3RJlgg');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('beak-config_soc_index_name', 'beak-config-soc');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('beakurl', 'https://beakops.ilink-systems.com/ras');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('websocketurl', 'wss://beakops.ilink-systems.com/ras');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('default_permission_ids', '[1, 12, 13, 4, 6, 7, 8, 9, 10, 11, 42, 43, 44, 46, 47, 48, 49, 2, 3, 5]');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('user_index_name', 'beak-user-additionalinfo');
+INSERT INTO public.rasglobalconfig ("key", value) VALUES('agent_group_id', '0xEBD2879B91679594459C2DCCE07459487E83706AC5D90F993A7907671159645855418B561094FC6E7225B484E5E2A23A');
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Chat feature through high remote console', 200, 'Chat Notify');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Change quality of the session (Reduce Bandwidth)', 200, 'Reduce Bandwidth');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send CTRL-ALT-DEL', 200, 'Send CTRL-ALT-DEL');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Share Clipboard', 200, 'Share Clipboard');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send keyboard clipboard (Paste)', 200, 'Send Clipboard');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Copy screenshot to the clipboard', 200, 'Copy screenshot to the clipboard');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Save screenshot to the file', 200, 'Save screenshot to the file');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Blank Screen', 200, 'Blank Screen');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Suspend my input', 200, 'Suspend my input');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Suspend guest input', 200, 'Suspend guest input');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Acquire wake lock', 200, 'Acquire wake lock');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send Files', 200, 'Send Files');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Receive Files', 200, 'Receive Files');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Reboot', 200, 'Reboot');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Reboot in safe mode', 200, 'Reboot in safe mode');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Activate remote printing', 200, 'Remote Printing');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send login information to the screen', 200, 'Send login information');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send admin credentials to the screen', 200, 'Send admin login information');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Zoom Screen', 200, 'Zoom Screen');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'On-Screen instruction to guide the user through the process', 200, 'Chat with the User');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Chat feature through high remote console', 1, 'Chat Notify');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Change quality of the session (Reduce Bandwidth)', 1, 'Reduce Bandwidth');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send CTRL-ALT-DEL', 1, 'Send CTRL-ALT-DEL');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Share Clipboard', 1, 'Share Clipboard');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send keyboard clipboard (Paste)', 1, 'Send Clipboard');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Copy screenshot to the clipboard', 1, 'Copy screenshot to the clipboard');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Save screenshot to the file', 1, 'Save screenshot to the file');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Blank Screen', 1, 'Blank Screen');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Suspend my input', 1, 'Suspend my input');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Suspend guest input', 1, 'Suspend guest input');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Acquire wake lock', 1, 'Acquire wake lock');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send Files', 1, 'Send Files');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Receive Files', 1, 'Receive Files');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Reboot', 1, 'Reboot');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Reboot in safe mode', 1, 'Reboot in safe mode');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Activate remote printing', 1, 'Remote Printing');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send login information to the screen', 1, 'Send login information');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Send admin credentials to the screen', 1, 'Send admin login information');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'Zoom Screen', 1, 'Zoom Screen');
+INSERT INTO public.raspermissiondetails (permission_id, permission_name, tenantid, "label") VALUES(0, 'On-Screen instruction to guide the user through the process', 1, 'Chat with the User');
+
+
+
+
+
+
+
+
+
+
+
+
+
